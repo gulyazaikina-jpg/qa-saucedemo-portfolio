@@ -21,7 +21,7 @@
 | TC-009 | Sort: Name (Z to A) | Logged in, Inventory | 1) Select sort **Name (Z to A)** | Items sorted Z→A | Positive | Medium | Pass | - | - |
 | TC-010 | Sort: Price (low to high) | Logged in, Inventory | 1) Select sort **Price (low to high)** | Prices sorted ascending | Positive | Medium | Pass | - | - |
 | TC-011 | Sort: Price (high to low) | Logged in, Inventory | 1) Select sort **Price (high to low)** | Prices sorted descending | Positive | Medium | Pass | - | - |
-| TC-012 | Open product details from Inventory | Logged in, Inventory | 1) Click product name | Product details open; name/price/description visible | Positive | Medium | Pass | #1 | - |
+| TC-012 | Open product details from Inventory | Logged in, Inventory | 1) Click product name | Product details open; name/price/description visible | Positive | Medium | Pass | #1 | Attached in issue #N1 |
 | TC-013 | Back to products from details | On product details page | 1) Click **Back to products** | Inventory page opens | Positive | Low | Pass | - | - |
 | TC-014 | Add item to cart from Inventory | Logged in, Inventory | 1) Click **Add to cart** on any item | Button becomes **Remove**, cart badge = 1 | Positive | High | Pass | - | - |
 | TC-015 | Remove item from Inventory | Logged in, on Inventory page, a specific item is already in cart (badge > 0).| 1) Click **Remove** on same item | Item removed, badge decrements, button back to **Add to cart** | Positive | High | Pass| - | - |

@@ -23,7 +23,7 @@ Verify that a user can:
 
 ## 4. Test environment
 - URL: https://www.saucedemo.com
-- Browser: Chrome (latest)
+- Browser: Chrome 143.0.7499.110 (64 bit)
 - OS: Windows 10
 - Test date: 2025-12-23
 

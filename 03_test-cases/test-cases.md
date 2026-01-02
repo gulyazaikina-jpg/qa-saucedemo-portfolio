@@ -2,7 +2,7 @@
 
 **Test data:** standard_user / secret_sauce  
 **URL:** https://www.saucedemo.com  
-**Browsers:** Chrome (latest)
+**Browsers:** Chrome 143.0.7499.110 (64 bit)
 
 > Статусы: Not run / Pass / Fail / Blocked  
 > Issue: ставить `#номер` (например `#12`), если есть дефект/улучшение  

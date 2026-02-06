@@ -25,7 +25,7 @@ All defects and improvements are tracked in GitHub Issues:
 > Each issue includes: environment, preconditions, steps to reproduce, actual/expected results, severity/priority, evidence, and related test case ID.
 
 ## Evidence
-Screenshots/videos/HAR files (if used) are stored here:
+Screenshots/videos/HAR files are stored here:
 - [evidence/screenshots/](evidence/screenshots/)
 - [evidence/videos/](evidence/videos/)
 - [evidence/har/](evidence/har/)
@@ -37,5 +37,5 @@ Screenshots/videos/HAR files (if used) are stored here:
 
 ## How to review
 1. Start with the [Test Summary Report](05_test-summary/test-summary.md)
-2. Open the [Test Cases](03_test-cases/test-cases.md) and check Status/Issue/Evidence columns
+2. Open the [Test Cases](03_test-cases/test-cases.md) and check Status/Issue columns
 3. Review the linked issues in GitHub Issues

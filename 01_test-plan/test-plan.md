@@ -79,7 +79,7 @@ Plus: verify totals on Overview (Item total + Tax = Total).
 ## 9. Deliverables (portfolio artifacts)
 - Smoke checklist: `02_checklists/smoke-checklist.md`
 - Test cases: `03_test-cases/test-cases.md`
-- Defects/Improvements: GitHub Issues (with evidence)
+- Defects/Improvements: GitHub Issues 
 - Test summary: `05_test-summary/test-summary.md`
-- Evidence folder: `evidence/` (screenshots/videos/har if needed)
+- Evidence folder: `evidence/` (screenshots/videos/har)
 - Test summary: `05_test-summary/test-summary.md`

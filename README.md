@@ -31,9 +31,9 @@ Screenshots/videos/HAR files are stored here:
 - [evidence/har/](evidence/har/)
 
 ## Execution highlights
-- 35 test cases executed
-- Bugs found: 2 (TC-028, TC-033)
-- Improvements: 1 (TC-012)
+- 36 test cases executed
+- Bugs found: 2 (TC-029, TC-034)
+- Improvements: 1 (TC-013)
 
 ## How to review
 1. Start with the [Test Summary Report](05_test-summary/test-summary.md)

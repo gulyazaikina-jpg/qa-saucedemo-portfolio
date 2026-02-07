@@ -4,13 +4,14 @@
 Verify that a user can:
 1) log in,
 2) select a product,
-3) add it to the cart,
+3) add item to the cart,
 4) complete checkout successfully.
 
 ## 2. Scope (What will be tested)
 - Login / Logout
-- Inventory (product list): products are visible, sorting works
+- Products page: products are visible, sorting works
 - Product details page
+- UI content sanity checks (readability)
 - Cart: add/remove items, cart badge count
 - Checkout: customer info → overview → finish
 - Basic validations and negative scenarios
@@ -48,7 +49,7 @@ Plus: verify totals on Overview (Item total + Tax = Total).
 ### 6.3 Functional tests
 - Sorting (A–Z, Z–A, price low–high, high–low)
 - Add/remove multiple items, cart badge count
-- Checkout validations (empty fields, spaces-only)
+- Checkout validations (empty fields, spaces-only, very long inputs)
 - Navigation/state checks (refresh, back/forward)
 
 ### 6.4 Negative tests
@@ -77,7 +78,7 @@ Plus: verify totals on Overview (Item total + Tax = Total).
 - Session/access issues (protected pages accessible after logout)
 
 ## 9. Deliverables (portfolio artifacts)
-- Smoke checklist: `02_checklists/smoke-checklist.md`
+- Smoke checklist: 02_checklists/smoke-checklist.md
 - Test cases: `03_test-cases/test-cases.md`
 - Defects/Improvements: GitHub Issues 
 - Test summary: `05_test-summary/test-summary.md`

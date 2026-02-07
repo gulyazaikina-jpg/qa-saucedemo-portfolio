@@ -38,4 +38,4 @@ Screenshots/videos/HAR files are stored here:
 ## How to review
 1. Start with the [Test Summary Report](05_test-summary/test-summary.md)
 2. Open the [Test Cases](03_test-cases/test-cases.md) and check Status/Issue columns
-3. Review the linked issues in GitHub Issues
+3. Review the linked issues in [GitHub Issues](https://github.com/gulyazaikina-jpg/qa-saucedemo-portfolio/issues)

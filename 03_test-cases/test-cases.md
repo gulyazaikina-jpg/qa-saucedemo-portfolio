@@ -5,7 +5,6 @@
 **Browsers:** Chrome 143.0.7499.110 (64 bit)
 
 > Статусы: Not run / Pass / Fail / Blocked  
-> Issue: ставить `#номер` (например `#12`), если есть дефект/улучшение  
 
 | ID | Title | Preconditions | Steps | Expected Result | Type | Priority | Status | Issue | 
 |---|---|---|---|---|---|---|---|---|

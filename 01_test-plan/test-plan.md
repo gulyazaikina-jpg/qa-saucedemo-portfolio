@@ -35,16 +35,23 @@ Verify that a user can:
 ## 6. Test approach
 
 ### 6.1 Smoke test (quick build check)
-Goal: confirm the app is testable.
-- Login works and Inventory page opens
+**Goal:** confirm the app is testable.
+- Login works and Products page opens
 - Add 1 item to cart (badge updates)
-- Cart page opens and item is visible
+- Cart page opens and item is listed
 - Checkout Step One page opens
 
 ### 6.2 Critical path (main business flow)
-Goal: confirm the end-to-end purchase flow works.
-Login → add item → cart → checkout (customer info) → overview → finish  
-Plus: verify totals on Overview (Item total + Tax = Total).
+**Goal:** confirm the end-to-end purchase flow works, totals correct.
+
+**Flow:** <br>
+Login → add item → cart → checkout (customer info) → overview → finish 
+
+**Key checkpoints:**
+- Step One accepts valid customer info and proceeds to Overview
+- On Overview: Item total + Tax = Total
+- Finish completes order: Checkout Complete page shown (/checkout-complete.html)
+- Cart badge is cleared (not displayed)
 
 ### 6.3 Functional tests
 - Sorting (A–Z, Z–A, price low–high, high–low)
@@ -67,7 +74,7 @@ Plus: verify totals on Overview (Item total + Tax = Total).
 - Smoke test executed
 - Critical path executed
 - At least 80% of planned test cases executed
-- All found defects/improvements logged in GitHub Issues with evidence
+- All found bugs/enhancement logged in GitHub Issues with evidence
 - Test summary report completed
 
 ## 8. Key risks (focus areas)
@@ -80,7 +87,7 @@ Plus: verify totals on Overview (Item total + Tax = Total).
 ## 9. Deliverables (portfolio artifacts)
 - Smoke checklist: 02_checklists/smoke-checklist.md
 - Test cases: `03_test-cases/test-cases.md`
-- Defects/Improvements: GitHub Issues 
+- Bugs/Enhancement: GitHub Issues 
 - Test summary: `05_test-summary/test-summary.md`
 - Evidence folder: `evidence/` (screenshots/videos/har)
 - Test summary: `05_test-summary/test-summary.md`

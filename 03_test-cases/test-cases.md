@@ -1,4 +1,4 @@
-# Test Cases — SauceDemo (Swag Labs) — Chrome
+# Test Cases 
 
 **Test data:** standard_user / secret_sauce  
 **URL:** https://www.saucedemo.com  

@@ -1,4 +1,4 @@
-# Smoke Checklist — SauceDemo (Chrome)
+# Smoke Checklist 
 
 Goal: quick check that the app is testable.
 

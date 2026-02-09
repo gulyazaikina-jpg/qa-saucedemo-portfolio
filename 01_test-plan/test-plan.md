@@ -1,4 +1,4 @@
-# Test Plan — SauceDemo (Swag Labs)
+# Test Plan 
 
 ## 1. Goal
 Verify that a user can:
